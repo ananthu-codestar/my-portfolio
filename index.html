@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Senior IT Lead & CEO | ASP.NET Core & DevOps Portfolio</title>
+  <meta name="description" content="Portfolio of Senior IT Lead, Offshore Team Lead & CEO of April IT Solutions with 5+ years experience in ASP.NET Core, Web API, DevOps, Aviation Passenger Systems, and Database Infrastructure.">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Custom Kinetic Magnetic Dual Cursor -->
+  <div id="cursor-dot"></div>
+  <div id="cursor-follower"></div>
+
+  <!-- Top Scroll Progress Bar -->
+  <div class="scroll-progress-container">
+    <div class="scroll-progress-bar"></div>
+  </div>
+
+  <!-- Particle Background Canvas -->
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo">
+        <div class="logo-badge">AI</div>
+        <div class="brand-text">
+          <span class="brand-name">April IT Solutions</span>
+          <span class="brand-sub">Senior IT Lead & Founder</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About & Oath</a></li>
+        <li><a href="#skills" class="nav-link">Skill Matrix</a></li>
+        <li><a href="#experience" class="nav-link">Career Journey</a></li>
+        <li><a href="#projects" class="nav-link">Ventures & Tech</a></li>
+        <li><a href="#learning" class="nav-link">Learning Radar</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Let's Connect</a>
+        <button class="mobile-toggle" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="hero">
+    <div class="hero-grid">
+      <div class="hero-content reveal-left">
+        <div class="hero-tag">
+          <span class="pulse-dot"></span>
+          <span>5+ Years Enterprise IT Experience</span>
+        </div>
+        <h1 class="hero-title">
+          Architecting High Performance <span class="gradient-text">Enterprise Web Systems</span> & Cloud Solutions
+        </h1>
+        <p class="hero-subtitle">
+          Specializing in <span class="typewriter-box" id="typewriter-text"></span>
+        </p>
+        <div class="hero-buttons" style="display: flex; gap: 1rem; flex-wrap: wrap;">
+          <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-rocket"></i> View Featured Work</a>
+          <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-envelope"></i> Hire April IT Solutions</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number" data-count="5" data-suffix="+">0+</span>
+            <span class="stat-label">Years IT Experience</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-count="4" data-suffix=" Companies">0</span>
+            <span class="stat-label">Global Tech Enterprises</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-count="100" data-suffix="%">0%</span>
+            <span class="stat-label">Engineering Commitment</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper reveal-right">
+        <div class="portrait-frame">
+          <img src="assets/profile.jpg" alt="Senior IT Lead & April IT Solutions CEO" class="portrait-img">
+          
+          <div class="floating-badge badge-ceo">
+            <div class="badge-icon"><i class="fa-solid fa-crown"></i></div>
+            <div class="badge-info">
+              <h4>CEO & Founder</h4>
+              <p>April IT Solutions</p>
+            </div>
+          </div>
+
+          <div class="floating-badge badge-exp">
+            <div class="badge-icon"><i class="fa-solid fa-plane-departure"></i></div>
+            <div class="badge-info">
+              <h4>Maldives Airport</h4>
+              <p>Passenger & Seaplane Tech</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Horizontal Kinetic Marquee Section -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <div class="marquee-content">
+        <div class="marquee-item"><i class="fa-brands fa-microsoft"></i> ASP.NET Core</div>
+        <div class="marquee-item"><i class="fa-solid fa-plane"></i> Maldives Aviation Systems</div>
+        <div class="marquee-item"><i class="fa-solid fa-briefcase"></i> CEO @ April IT Solutions</div>
+        <div class="marquee-item"><i class="fa-solid fa-database"></i> MS SQL Server</div>
+        <div class="marquee-item"><i class="fa-solid fa-chart-line"></i> Grafana & Monitoring</div>
+        <div class="marquee-item"><i class="fa-brands fa-jenkins"></i> Jenkins CI/CD</div>
+        <div class="marquee-item"><i class="fa-solid fa-server"></i> VMware ESXi & Guacamole</div>
+        <div class="marquee-item"><i class="fa-solid fa-brain"></i> AI & RAG Models</div>
+      </div>
+
+      <div class="marquee-content">
+        <div class="marquee-item"><i class="fa-brands fa-microsoft"></i> ASP.NET Core</div>
+        <div class="marquee-item"><i class="fa-solid fa-plane"></i> Maldives Aviation Systems</div>
+        <div class="marquee-item"><i class="fa-solid fa-briefcase"></i> CEO @ April IT Solutions</div>
+        <div class="marquee-item"><i class="fa-solid fa-database"></i> MS SQL Server</div>
+        <div class="marquee-item"><i class="fa-solid fa-chart-line"></i> Grafana & Monitoring</div>
+        <div class="marquee-item"><i class="fa-brands fa-jenkins"></i> Jenkins CI/CD</div>
+        <div class="marquee-item"><i class="fa-solid fa-server"></i> VMware ESXi & Guacamole</div>
+        <div class="marquee-item"><i class="fa-solid fa-brain"></i> AI & RAG Models</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About & Oath Section -->
+  <section id="about" class="section">
+    <div class="section-header reveal-on-scroll">
+      <span class="section-subtitle">Executive Profile</span>
+      <h2 class="section-title">Driven by Innovation & Engineering Oath</h2>
+      <p class="section-desc">Born and raised in Kerala, India, holding a B.Tech degree in Computer Science Engineering, with over half a decade of hands-on technical and team leadership experience.</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="glass-card about-text reveal-left">
+        <h3>Building Next-Gen Web Applications & Systems</h3>
+        <p>
+          My IT career launched at <strong>Wipro Technologies</strong>, laying a solid foundation in enterprise web engineering. Over the past 5+ years, I've progressed into leadership roles including Technology Lead at <strong>Acrocede Technologies</strong> and Offshore Team Lead at <strong>Berlin Packaging</strong>.
+        </p>
+        <p>
+          Currently, I lead mission-critical technology at <strong>Maldives Airport</strong>, overseeing passenger control systems and aircraft/seaplane flight operation systems. As the CEO and Founder of <strong>April IT Solutions</strong>, I manage end-to-end web product development for global clients.
+        </p>
+        <div class="oath-box">
+          <h4><i class="fa-solid fa-shield-halved"></i> My Engineering Oath</h4>
+          <p>"To provide better, great, and awesome animated websites, high-converting landing pages, and resilient web applications that wow users and scale effortlessly."</p>
+        </div>
+      </div>
+
+      <div class="highlights-grid reveal-right">
+        <div class="highlight-card">
+          <div class="highlight-icon"><i class="fa-solid fa-layer-group"></i></div>
+          <h4>ASP.NET Core & Web API</h4>
+          <p>Architecting robust backend services, microservices, REST APIs, and MS SQL database integrations.</p>
+        </div>
+
+        <div class="highlight-card">
+          <div class="highlight-icon"><i class="fa-solid fa-network-wired"></i></div>
+          <h4>DevOps & Observability</h4>
+          <p>CI/CD pipelines using Jenkins & Azure DevOps with real-time Grafana observability dashboarding.</p>
+        </div>
+
+        <div class="highlight-card">
+          <div class="highlight-icon"><i class="fa-solid fa-server"></i></div>
+          <h4>Infra & Virtualization</h4>
+          <p>Deploying VMware ESXi setups, Apache Guacamole remote access gateway, Linux Bash & PowerShell automation.</p>
+        </div>
+
+        <div class="highlight-card">
+          <div class="highlight-icon"><i class="fa-solid fa-chart-pie"></i></div>
+          <h4>Business Intelligence</h4>
+          <p>Transforming complex enterprise datasets into actionable insights using Power BI, Excel & PowerPoint dashboards.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Matrix Section -->
+  <section id="skills" class="section">
+    <div class="section-header reveal-on-scroll">
+      <span class="section-subtitle">Technical Competency</span>
+      <h2 class="section-title">Core Skills & Proficiency Matrix</h2>
+      <p class="section-desc">Interactive breakdown of enterprise web stack, cloud automation, virtualization, and frontend technologies.</p>
+    </div>
+
+    <div class="skills-controls reveal-on-scroll">
+      <button class="filter-btn active" data-filter="all">All Stack</button>
+      <button class="filter-btn" data-filter="backend">ASP.NET & Database</button>
+      <button class="filter-btn" data-filter="devops">DevOps & Scripting</button>
+      <button class="filter-btn" data-filter="infra">Infra & Monitoring</button>
+      <button class="filter-btn" data-filter="web">Web & Analytics</button>
+    </div>
+
+    <div class="skills-grid">
+      <!-- Backend & .NET -->
+      <div class="skill-card reveal-zoom stagger-1" data-category="backend">
+        <div>
+          <div class="skill-header">
+            <div class="skill-name-box">
+              <i class="fa-brands fa-microsoft skill-icon"></i>
+              <span class="skill-title">ASP.NET Web API</span>
+            </div>
+            <span class="skill-badge badge-intermediate">Intermediate</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">RESTful APIs, JWT Auth, Swagger, Entity Framework.</p>
+        </div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 78%;"></div></div>
+      </div>
+
+      <div class="skill-card reveal-zoom stagger-2" data-category="backend">
+        <div>
+          <div class="skill-header">
+            <div class="skill-name-box">
+              <i class="fa-solid fa-code skill-icon"></i>
+              <span class="skill-title">ASP.NET Core</span>
+            </div>
+            <span class="skill-badge badge-intermediate">Intermediate</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">Cross-platform ASP.NET Core backend architecture.</p>
+        </div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 80%;"></div></div>
+      </div>
+
+      <div class="skill-card reveal-zoom stagger-3" data-category="backend">
+        <div>
+          <div class="skill-header">
+            <div class="skill-name-box">
+              <i class="fa-solid fa-cubes skill-icon"></i>
+              <span class="skill-title">ASP.NET Core MVC & MVC Framework</span>
+            </div>
+            <span class="skill-badge badge-intermediate">Intermediate</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">MVC Architecture, Razor views, Controller design.</p>
+        </div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 75%;"></div></div>
+      </div>
+
+      <div class="skill-card reveal-zoom stagger-4" data-category="backend">
+        <div>
+          <div class="skill-header">
+            <div class="skill-name-box">
+              <i class="fa-solid fa-database skill-icon"></i>
+              <span class="skill-title">MS SQL Server</span>
+            </div>
+            <span class="skill-badge badge-medium">Medium</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">Complex stored procedures, queries, schema design.</p>
+        </div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 70%;"></div></div>
+      </div>
+
+      <!-- DevOps & Scripting -->
+      <div class="skill-card reveal-zoom stagger-1" data-category="devops">
+        <div>
+          <div class="skill-header">
+            <div class="skill-name-box">
+              <i class="fa-brands fa-jenkins skill-icon"></i>
+              <span class="skill-title">Jenkins CI/CD</span>
+            </div>
+            <span class="skill-badge badge-medium">Medium</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">Automated build pipelines & deployment jobs.</p>
+        </div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 70%;"></div></div>
+      </div>
+
+      <div class="skill-card reveal-zoom stagger-2" data-category="devops">
+        <div>
+          <div class="skill-header">
+            <div class="skill-name-box">
+              <i class="fa-brands fa-linux skill-icon"></i>
+              <span class="skill-title">Linux Bash Scripting</span>
+            </div>
+            <span class="skill-badge badge-medium">Medium</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">Server administration, shell scripts, cron jobs.</p>
+        </div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 72%;"></div></div>
+      </div>
+
+      <div class="skill-card reveal-zoom stagger-3" data-category="devops">
+        <div>
+          <div class="skill-header">
+            <div class="skill-name-box">
+              <i class="fa-solid fa-terminal skill-icon"></i>
+              <span class="skill-title">PowerShell Scripting</span>
+            </div>
+            <span class="skill-badge badge-medium">Medium</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">Windows environment task automation & admin scripts.</p>
+        </div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 70%;"></div></div>
+      </div>
+
+      <div class="skill-card reveal-zoom stagger-4" data-category="devops">
+        <div>
+          <div class="skill-header">
+            <div class="skill-name-box">
+              <i class="fa-solid fa-cloud skill-icon"></i>
+              <span class="skill-title">Azure DevOps / ARM / APIM</span>
+            </div>
+            <span class="skill-badge badge-beginner">Beginner</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">Azure Resource Management & API Management gateways.</p>
+        </div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 45%;"></div></div>
+      </div>
+
+      <!-- Infra & Monitoring -->
+      <div class="skill-card reveal-zoom stagger-1" data-category="infra">
+        <div>
+          <div class="skill-header">
+            <div class="skill-name-box">
+              <i class="fa-solid fa-chart-line skill-icon"></i>
+              <span class="skill-title">Grafana & Monitoring</span>
+            </div>
+            <span class="skill-badge badge-intermediate">Intermediate</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">System metric dashboards, alerting, logs visualization.</p>
+        </div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 75%;"></div></div>
+      </div>
+
+      <div class="skill-card reveal-zoom stagger-2" data-category="infra">
+        <div>
+          <div class="skill-header">
+            <div class="skill-name-box">
+              <i class="fa-solid fa-hard-drive skill-icon"></i>
+              <span class="skill-title">VMware ESXi & Guacamole</span>
+            </div>
+            <span class="skill-badge badge-intermediate">Intermediate</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">Virtual machine clusters & clientless remote desktop gateway.</p>
+        </div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 76%;"></div></div>
+      </div>
+
+      <!-- Web & Analytics -->
+      <div class="skill-card reveal-zoom stagger-1" data-category="web">
+        <div>
+          <div class="skill-header">
+            <div class="skill-name-box">
+              <i class="fa-brands fa-html5 skill-icon"></i>
+              <span class="skill-title">HTML5, CSS3, JS, jQuery</span>
+            </div>
+            <span class="skill-badge badge-intermediate">Intermediate</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">Responsive UI designs, DOM manipulation, rich animations.</p>
+        </div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 78%;"></div></div>
+      </div>
+
+      <div class="skill-card reveal-zoom stagger-2" data-category="web">
+        <div>
+          <div class="skill-header">
+            <div class="skill-name-box">
+              <i class="fa-brands fa-react skill-icon"></i>
+              <span class="skill-title">Angular & React</span>
+            </div>
+            <span class="skill-badge badge-beginner">Beginner</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">Modern single page app components & state management.</p>
+        </div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 50%;"></div></div>
+      </div>
+
+      <div class="skill-card reveal-zoom stagger-3" data-category="web">
+        <div>
+          <div class="skill-header">
+            <div class="skill-name-box">
+              <i class="fa-solid fa-chart-column skill-icon"></i>
+              <span class="skill-title">Power BI, Excel & PPT</span>
+            </div>
+            <span class="skill-badge badge-medium">Medium</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">Executive reporting, BI dashboards, data visualization.</p>
+        </div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 70%;"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Timeline Section -->
+  <section id="experience" class="section">
+    <div class="section-header reveal-on-scroll">
+      <span class="section-subtitle">Career Milestones</span>
+      <h2 class="section-title">5+ Years IT Industry Experience</h2>
+      <p class="section-desc">From Project Engineer to Technology Lead, Offshore Team Lead, and CEO.</p>
+    </div>
+
+    <div class="timeline-container">
+      <!-- Item 1: Maldives Airport -->
+      <div class="timeline-item reveal-left">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="company-tag"><i class="fa-solid fa-plane"></i> Maldives Airport</span>
+          <h3 class="job-role">Senior Systems & Aviation IT Engineer</h3>
+          <div class="job-meta">
+            <span><i class="fa-regular fa-calendar"></i> Present</span>
+            <span><i class="fa-solid fa-location-dot"></i> Maldives</span>
+          </div>
+          <p class="job-desc">
+            Directing technology operations for passenger control systems, aircraft logistics, and seaplane management. Ensuring uninterrupted operational uptime and seamless passenger handling.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">ASP.NET Core</span>
+            <span class="tech-tag">Passenger Systems</span>
+            <span class="tech-tag">Seaplane Tech</span>
+            <span class="tech-tag">Grafana</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 2: April IT Solutions -->
+      <div class="timeline-item reveal-right">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="company-tag"><i class="fa-solid fa-briefcase"></i> April IT Solutions</span>
+          <h3 class="job-role">Founder & CEO</h3>
+          <div class="job-meta">
+            <span><i class="fa-regular fa-calendar"></i> Active Enterprise</span>
+            <span><i class="fa-solid fa-location-dot"></i> Kerala, India</span>
+          </div>
+          <p class="job-desc">
+            Founding CEO leading client web solutions, custom web applications, dynamic animated landing pages, and enterprise software engineering.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">Executive Leadership</span>
+            <span class="tech-tag">Full Stack Web</span>
+            <span class="tech-tag">Client Delivery</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 3: Berlin Packaging -->
+      <div class="timeline-item reveal-left">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="company-tag"><i class="fa-solid fa-boxes-packing"></i> Berlin Packaging</span>
+          <h3 class="job-role">Offshore Team Lead</h3>
+          <div class="job-meta">
+            <span><i class="fa-regular fa-calendar"></i> Past Role</span>
+            <span><i class="fa-solid fa-globe"></i> Offshore Operations</span>
+          </div>
+          <p class="job-desc">
+            Led cross-functional offshore software development team. Managed code quality, sprint deliveries, SQL optimizations, and team coordination.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">Team Leadership</span>
+            <span class="tech-tag">ASP.NET MVC</span>
+            <span class="tech-tag">MS SQL</span>
+            <span class="tech-tag">Agile</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 4: Acrocede Technologies -->
+      <div class="timeline-item reveal-right">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="company-tag"><i class="fa-solid fa-microchip"></i> Acrocede Technologies</span>
+          <h3 class="job-role">Technology Lead</h3>
+          <div class="job-meta">
+            <span><i class="fa-regular fa-calendar"></i> Past Role</span>
+            <span><i class="fa-solid fa-building"></i> Technology Division</span>
+          </div>
+          <p class="job-desc">
+            Architected backend API services, MS SQL database schemas, and integration modules for enterprise clients.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">ASP.NET Web API</span>
+            <span class="tech-tag">System Architecture</span>
+            <span class="tech-tag">Jenkins</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 5: Wipro Technologies -->
+      <div class="timeline-item reveal-left">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="company-tag"><i class="fa-solid fa-building-user"></i> Wipro Technologies</span>
+          <h3 class="job-role">Project Engineer</h3>
+          <div class="job-meta">
+            <span><i class="fa-regular fa-calendar"></i> Career Launchpad</span>
+            <span><i class="fa-solid fa-rocket"></i> IT Entry</span>
+          </div>
+          <p class="job-desc">
+            Initial stepping stone into the global IT industry. Developed core skills in .NET framework, web technologies, software development life cycle (SDLC), and enterprise standards.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">C#</span>
+            <span class="tech-tag">ASP.NET</span>
+            <span class="tech-tag">HTML/CSS/JS</span>
+            <span class="tech-tag">SQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects & April IT Solutions Showcase -->
+  <section id="projects" class="section">
+    <div class="section-header reveal-on-scroll">
+      <span class="section-subtitle">Portfolio & Solutions</span>
+      <h2 class="section-title">Enterprise Tech & April IT Showcase</h2>
+      <p class="section-desc">Key systems, aviation passenger controls, and agency web engineering projects.</p>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card reveal-on-scroll stagger-1">
+        <div class="project-header">
+          <i class="fa-solid fa-plane-up project-bg-icon"></i>
+          <span class="project-badge">Maldives Aviation Tech</span>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Passenger & Seaplane Control System</h3>
+          <p class="project-desc">
+            Real-time passenger dispatch, aircraft seating management, seaplane schedule coordination, and flight telemetry monitoring.
+          </p>
+          <div class="tech-tags" style="margin-bottom: 1rem;">
+            <span class="tech-tag">ASP.NET Core</span>
+            <span class="tech-tag">MS SQL</span>
+            <span class="tech-tag">Grafana</span>
+          </div>
+          <div class="project-footer">
+            <span style="font-size: 0.85rem; color: var(--primary-emerald); font-weight: 600;"><i class="fa-solid fa-circle-check"></i> Mission Critical Live</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card reveal-on-scroll stagger-2">
+        <div class="project-header">
+          <i class="fa-solid fa-globe project-bg-icon"></i>
+          <span class="project-badge">April IT Solutions</span>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Awesome Animated Web Apps & Portals</h3>
+          <p class="project-desc">
+            Custom-tailored business web applications, sleek landing pages, and interactive web tools designed under the April IT Solutions banner.
+          </p>
+          <div class="tech-tags" style="margin-bottom: 1rem;">
+            <span class="tech-tag">HTML5/CSS3</span>
+            <span class="tech-tag">JS/jQuery</span>
+            <span class="tech-tag">ASP.NET Core</span>
+          </div>
+          <div class="project-footer">
+            <span style="font-size: 0.85rem; color: var(--primary-cyan); font-weight: 600;"><i class="fa-solid fa-star"></i> Flagship Agency Work</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card reveal-on-scroll stagger-3">
+        <div class="project-header">
+          <i class="fa-solid fa-server project-bg-icon"></i>
+          <span class="project-badge">Infra & Virtualization</span>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Remote VMware ESXi & Apache Guacamole Hub</h3>
+          <p class="project-desc">
+            Centralized virtual machine cluster with secure HTML5 clientless remote desktop portal (Apache Guacamole) and automated Linux bash scripts.
+          </p>
+          <div class="tech-tags" style="margin-bottom: 1rem;">
+            <span class="tech-tag">VMware ESXi</span>
+            <span class="tech-tag">Apache Guacamole</span>
+            <span class="tech-tag">Bash / PowerShell</span>
+          </div>
+          <div class="project-footer">
+            <span style="font-size: 0.85rem; color: var(--primary-purple); font-weight: 600;"><i class="fa-solid fa-shield"></i> High Security Setup</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CEO Banner -->
+    <div class="ceo-banner reveal-zoom">
+      <div class="ceo-banner-content">
+        <h3>Looking for Custom Web App Development?</h3>
+        <p>
+          As CEO of <strong>April IT Solutions</strong>, I personally ensure every project delivers premium visual aesthetics, robust ASP.NET backend integration, and outstanding performance.
+        </p>
+      </div>
+      <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-handshake"></i> Partner with April IT</a>
+    </div>
+  </section>
+
+  <!-- Currently Learning Queue Section -->
+  <section id="learning" class="section">
+    <div class="section-header reveal-on-scroll">
+      <span class="section-subtitle">Future Technology Radar</span>
+      <h2 class="section-title">Currently Learning Queue</h2>
+      <p class="section-desc">Actively acquiring cutting-edge domains to expand technical leadership capabilities.</p>
+    </div>
+
+    <div class="radar-grid">
+      <!-- Item 1 -->
+      <div class="radar-card reveal-on-scroll stagger-1">
+        <span class="radar-status"><i class="fa-solid fa-spinner fa-spin"></i> Active Study</span>
+        <div class="radar-icon"><i class="fa-solid fa-brain"></i></div>
+        <h3>AI & RAG Models</h3>
+        <p>Understanding Retrieval-Augmented Generation (RAG), vector embeddings, LLM integrations, and AI workflow automation for enterprise web platforms.</p>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="radar-card reveal-on-scroll stagger-2">
+        <span class="radar-status"><i class="fa-solid fa-spinner fa-spin"></i> Active Study</span>
+        <div class="radar-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+        <h3>Mobile App Development</h3>
+        <p>Building high-performance native and cross-platform mobile experiences for iOS and Android environments.</p>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="radar-card reveal-on-scroll stagger-3">
+        <span class="radar-status"><i class="fa-solid fa-spinner fa-spin"></i> Active Study</span>
+        <div class="radar-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+        <h3>Modern Web App & UI/UX</h3>
+        <p>Mastering modern animated web architecture, micro-interactions, glassmorphism, and top-tier user-centric design interfaces.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Kerala Section -->
+  <section id="contact" class="section">
+    <div class="section-header reveal-on-scroll">
+      <span class="section-subtitle">Get In Touch</span>
+      <h2 class="section-title">Let's Build Something Extraordinary</h2>
+      <p class="section-desc">Reach out for enterprise consulting, IT advisory, or April IT Solutions client projects.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal-left">
+        <div class="glass-card">
+          <h3 style="font-family: var(--font-display); font-size: 1.5rem; margin-bottom: 1.5rem;">Contact Information</h3>
+
+          <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="contact-details">
+                <h4>Base Location</h4>
+                <p>Kerala, India (God's Own Country)</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fa-solid fa-building"></i></div>
+              <div class="contact-details">
+                <h4>Company</h4>
+                <p>April IT Solutions (CEO & Founder)</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <div class="contact-details">
+                <h4>Education</h4>
+                <p>B.Tech in Computer Science Engineering</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="location-widget">
+            <div class="location-info">
+              <h5><i class="fa-solid fa-earth-asia"></i> Kerala Local Time</h5>
+              <p>Standard Time Zone (IST)</p>
+            </div>
+            <div class="clock-badge" id="kerala-clock">--:--:-- IST</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass-card reveal-right">
+        <h3 style="font-family: var(--font-display); font-size: 1.5rem; margin-bottom: 1.5rem;">Send a Direct Message</h3>
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label class="form-label" for="name">Your Name</label>
+            <input type="text" id="name" class="form-input" placeholder="e.g. John Doe" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">Email Address</label>
+            <input type="email" id="email" class="form-input" placeholder="john@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="subject">Subject / Inquiry Type</label>
+            <input type="text" id="subject" class="form-input" placeholder="April IT Solutions / Enterprise .NET Consulting" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">Message</label>
+            <textarea id="message" class="form-textarea" placeholder="Tell me about your project or technical needs..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="margin-top: 0.5rem; width: 100%;">
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="brand-logo">
+        <div class="logo-badge" style="width: 32px; height: 32px; font-size: 0.9rem;">AI</div>
+        <span class="brand-name" style="font-size: 1rem;">April IT Solutions & Executive Portfolio</span>
+      </div>
+
+      <div class="footer-text">
+        &copy; 2026 Senior IT Lead & Founder. Handcrafted with ASP.NET passion & Kerala engineering oath.
+      </div>
+
+      <div class="social-links">
+        <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" class="social-icon" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" class="social-icon" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
