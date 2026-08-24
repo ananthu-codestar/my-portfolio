@@ -260,9 +260,9 @@ function initTypewriter() {
   const roles = [
     "ASP.NET Core Specialist",
     "Offshore Team Lead",
-    "Founder & CEO @ April IT Solutions",
+    "Senior ASP.NET Developer",
     "DevOps & Observability Lead",
-    "Passenger Control & Seaplane Tech"
+    "Global Aviation Tech (Passenger & Flight Ops)"
   ];
 
   let roleIdx = 0;
